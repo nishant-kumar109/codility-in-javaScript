@@ -25,3 +25,5 @@ function solution(A) {
 }
 
 console.log(solution([3,1,2,4,3]))
+// expected output : 1
+// submitted link : https://app.codility.com/demo/results/trainingT4BHMJ-M89/
