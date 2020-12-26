@@ -23,4 +23,5 @@ let readyToJump = [...Array(X+1).keys()].reduce((a,b)=>a+b )
   return -1;
 }
 
-console.log(solution(5, (1, 3, 1 , 4, 2 ,3 ,5, 4)))
+console.log(solution(5, (1, 3, 1, 4, 2, 3, 5, 4)))
+// https://app.codility.com/demo/results/trainingPBJZN2-GX8/
