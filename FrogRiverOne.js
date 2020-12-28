@@ -16,9 +16,7 @@ let readyToJump = [...Array(X+1).keys()].reduce((a,b)=>a+b )
           readyToJump -= A[i];
       }
 
-      if(readyToJump == 0){
-          return i;
-      }
+      if(readyToJump == 0) return i;
   }
   return -1;
 }
