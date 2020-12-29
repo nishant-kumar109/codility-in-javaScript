@@ -20,9 +20,7 @@ function solution(N, A) {
           counterArray[x] +=1;
       }
 
-      if(i<=N && counterArray[x] > current_max){
-          current_max = counterArray[x]
-      }
+    if (i <= N && counterArray[x] > current_max) current_max = counterArray[x];
   }
   for(let i =0; i<counterArray.length; i++){
       if(counterArray[i] < start_line){
